@@ -21,7 +21,7 @@ class ProfileController extends Controller
         $cookie = Cookie::make(
             'assignment-3',
             '123-XYZ',
-            30, //
+            30,
             '/',
             $_SERVER['SERVER_NAME'],
             false,
