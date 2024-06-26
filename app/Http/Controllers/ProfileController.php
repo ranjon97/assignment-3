@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Cookie;
 
 class ProfileController extends Controller
 {
-    public function profile($id = 1)
+    public function profile($id)
     {
         $name = "Donal Trump";
         $age = "75";
